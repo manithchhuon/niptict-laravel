@@ -15,10 +15,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 Read laravel doc : [Laravel](https://laravel.com/docs/5.5)
 
-```
-Give examples
-```
-
 ### Installing
 
 After preparing your environment and clonning:
@@ -47,6 +43,11 @@ php artisan db:seed --class=UsersTableSeeder
     * Username: user@niptict.com
     * PWD: 111111
     
+## Testing URL
+* <http://127.0.0.1:8000/role/create>
+* <http://127.0.0.1:8000/product/create>
+* <http://127.0.0.1:8000/category/create>
+
 ## Authors
 
 * **Manith CS** - *[NIPTICT Staff](http://niptict.edu.kh)*

@@ -77,7 +77,7 @@
                     <!-- Sidebar Navigation -->
                     <ul class="sidebar-nav">
                         <li>
-                            <a href="index.html" class="active"><i class="gi gi-stopwatch sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
+                            <a href="#" class="active"><i class="gi gi-stopwatch sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dashboard</span></a>
                         </li>
                        
                         <li class="sidebar-header">
@@ -85,15 +85,24 @@
                             <span class="sidebar-header-title">Design Kit</span>
                         </li>
                         <li>
-                            <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">User Interface</span></a>
+                            <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-user sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">User Management</span></a>
                             <ul>
                                 <li>
-                                    <a href="page_ui_grid_blocks.html">Grid &amp; Blocks</a>
+                                    <a href="{{route('register')}}">New User</a>
                                 </li>
                                 
                             </ul>
                         </li>
                         <li>
+                            <a href="{{route('category.index')}}"><i class="fa fa-list sidebar-nav-icon"></i><span>Category</span></a>
+                        </li>
+                        <li>
+                            <a href="{{route('product.index')}}"><i class="fa fa-cart-plus sidebar-nav-icon"></i><span>Product</span></a>
+                        </li>
+                        <li>
+                            <a href="{{route('role.index')}}"><i class="fa fa-user-circle sidebar-nav-icon"></i><span>Role</span></a>
+                        </li>
+                        <!--li>
                             <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="fa fa-wrench sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Components</span></a>
                             <ul>
                                 <li>
@@ -109,7 +118,7 @@
                                 </li>
                                 
                             </ul>
-                        </li>
+                        </li-->
                     </ul>
                     <!-- END Sidebar Navigation -->
 
