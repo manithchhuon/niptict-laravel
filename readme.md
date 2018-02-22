@@ -2,10 +2,10 @@
 
 This project aims to create a sample backend and frontend of laravel project for niptict student. 
 It contains :
-    - CRUD Category
-    - CRUD Product
-    - Auth
-    - Role and Permission
+* CRUD Category
+* CRUD Product
+* Auth
+* Role and Permission
 
 ## Getting Started
 
