@@ -1,0 +1,32 @@
+<?php
+
+return [
+	'role'=>[
+		'create',
+		'edit',
+		'delete',
+		'view',
+		'list'
+	],
+	'user'=>[
+		'create',
+		'edit',
+		'delete',
+		'view',
+		'list'
+	],
+	'product'=>[
+		'create',
+		'edit',
+		'delete',
+		'view',
+		'list'
+	],
+	'category'=>[
+		'create',
+		'edit',
+		'view',
+		'delete',
+		'list'
+	]
+];
